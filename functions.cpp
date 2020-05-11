@@ -103,5 +103,6 @@ void initialize(int argCount, char **argCharArray){
 }
 
 void printSentence(){
+	if (!result.empty())
 	cout << result << endl;
 }
