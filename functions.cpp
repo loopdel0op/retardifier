@@ -38,9 +38,12 @@ void helpCalled(){
 
 
 void initialize(int argCount, char **argCharArray){
+
 	int argCountGlobal = argCount;
 
 	vector<string> argVector(argCountGlobal);
+
+	if (argCountGlobal > 1){
 
 	for (int i = 0; i != argCount; ++i)
 	{
@@ -73,6 +76,7 @@ void initialize(int argCount, char **argCharArray){
 	}
 }
 
+
 	// Starts from the first letter to retardify
 	if (argVector[1] == "-f"){
 	for (int i = 0; i != argCount; ++i)
@@ -94,7 +98,8 @@ void initialize(int argCount, char **argCharArray){
 		result += " ";
 	}
 }
-	
+}
+	else help();
 }
 
 void printSentence(){
