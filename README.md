@@ -11,7 +11,7 @@ Comes with 2 options!
   "-f" Starts retardification from the first letter
   
   "-h" Help page
-  
+ test 
   
   https://github.com/loopdel0op/retardifier
   
