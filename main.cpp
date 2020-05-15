@@ -23,6 +23,6 @@ int main(int argc, char **argv){
 }
 
 
-// make argv[2-argc] a string or whatever IMPORTANT
 
-//Also make secondLetter and firstLetter use the string you made in makeSentence
+
+
