@@ -11,7 +11,17 @@ Comes with 2 options!
   "-f" Starts retardification from the first letter
   
   "-h" Help page
- 
+
+Compilation:
+  
+  to use with gcc:
+    g++ main.cpp functions.cpp
+    
+  to use with clang:
+    clang++ main.cpp functions.cpp
+    
+  
+
   
   https://github.com/loopdel0op/retardifier
   
