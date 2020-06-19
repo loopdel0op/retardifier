@@ -15,10 +15,10 @@ Comes with 2 options!
 Compilation:
   
   to use with gcc:
-    g++ main.cpp functions.cpp
+    $g++ main.cpp functions.cpp
     
   to use with clang:
-    clang++ main.cpp functions.cpp
+    $clang++ main.cpp functions.cpp
     
   
 
